@@ -12,6 +12,20 @@
     text-decoration: none;
 }
 
+.nav-item {
+    transition: .2s ease-in-out;
+
+}
+
+.nav-item:hover {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-shadow: lawngreen 0px 5px 5px;
+}
+
+
+
 .user-display {
     font-size: 17px;
     text-decoration: none;
