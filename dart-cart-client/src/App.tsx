@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import "./App.css";
 import { Login } from "./features/authentication/Login";
 import { ResetPassword } from "./features/authentication/ResetPassword";
 import Home from "./features/Home";
@@ -18,7 +18,7 @@ import store from "./common/store";
 import Header from "./features/layout/Header";
 import Footer from "./features/layout/Footer";
 import Cart from "./features/cart/Cart";
-import "./App.css";
+
 import Checkout from "./features/checkout/CheckoutDisplay";
 import ListItem from "./features/list-item/ListItem";
 import ShopPage from "./features/shop-page/ShopPage";

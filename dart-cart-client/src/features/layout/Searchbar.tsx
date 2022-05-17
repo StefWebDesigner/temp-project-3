@@ -8,6 +8,7 @@ import {
 import { useNavigate } from "react-router-dom";
 
 import "../authentication/protect_btn.css";
+import {Col} from "react-bootstrap";
 
 const Searchbar = () => {
   const dispatch = useDispatch();
@@ -26,6 +27,7 @@ const Searchbar = () => {
 
   return (
     <div className="navbar-brand" style={{ width: " 60%", marginLeft: "20px" }}>
+      <Col>
       <div className="form-inline my-2 my-lg-0">
         <button
           onClick={(e) => handleSearch(e)}
@@ -55,6 +57,7 @@ const Searchbar = () => {
           />
         </div>
       </div>
+      </Col>
     </div>
   );
 };
