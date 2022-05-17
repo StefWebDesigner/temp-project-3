@@ -4,9 +4,9 @@ import {Col, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const logoStyle = {
-  height: "15%",
-  width: "15%",
-  marginLeft: "3%",
+  height: "55%",
+  width: "55%",
+  marginLeft: "15px",
 };
 
 const Logo = () => {
