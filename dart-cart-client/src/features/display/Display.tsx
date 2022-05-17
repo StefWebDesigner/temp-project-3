@@ -74,6 +74,9 @@ useEffect(fetchData, []);
           >
             Fetching Products...
           </div>
+
+
+
         )}
       </div>
     </>

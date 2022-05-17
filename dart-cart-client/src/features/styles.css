@@ -1,7 +1,23 @@
 .navbar-custom {
     background-color: #a6a6a6;
     color: black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
 }
+
+
+.nav-link-font {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.user-display {
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+}
+
 
 .footer-info {
     padding: 1em;

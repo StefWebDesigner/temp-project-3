@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../imgs/Brand.png";
-import { Navbar } from "react-bootstrap";
+import {Col, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const logoStyle = {
@@ -13,9 +13,12 @@ const Logo = () => {
   return (
     <>
       <Navbar>
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
-          <h2>DartCart</h2>
-        </Link>
+        <Col>
+          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+            <h2>DartCart</h2>
+          </Link>
+        </Col>
+        <Col>
         <Link to="/" style={{ textDecoration: "none", color: "black" }}>
           <div style={{ textAlign: "left" }}>
             <img
@@ -26,6 +29,7 @@ const Logo = () => {
             ></img>
           </div>
         </Link>
+        </Col>
       </Navbar>
     </>
   );
