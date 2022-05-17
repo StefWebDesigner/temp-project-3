@@ -22,6 +22,8 @@
 .footer-info {
     padding: 1em;
     color: #198754;
+    text-align: center;
+    margin: auto;
 }
 
 .fa {
